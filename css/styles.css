@@ -1,0 +1,48 @@
+:root {
+  --background: #f7f7f9;
+  --white: #fff;
+}
+
+.roboto {
+  font-family: 'Roboto Slab', serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 375px;
+  max-width: 768px;
+  background-color: var(--background);
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--white);
+  padding: 20px;
+  border-bottom-left-radius: 26px;
+  border-bottom-right-radius: 26px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900;
+}
+
+.nav-bar {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.fa-bars-staggered:hover {
+  transform:translateY(-4px);
+  transition: 3s;
+}
